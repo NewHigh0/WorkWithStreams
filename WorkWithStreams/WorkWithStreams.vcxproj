@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Contacts.h" />
     <ClInclude Include="ISerializable.h" />
     <ClInclude Include="String.h" />
   </ItemGroup>
