@@ -131,6 +131,7 @@
     <ClInclude Include="Contacts.h" />
     <ClInclude Include="ISerializable.h" />
     <ClInclude Include="String.h" />
+    <ClInclude Include="Student.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />

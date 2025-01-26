@@ -2,6 +2,7 @@
 #include "String.h"
 #include "Contacts.h"
 #include "College.h"
+#include "Student.h"
 
 int main() {
     
@@ -33,7 +34,7 @@ int main() {
     std::cout << "\nDeserialized Contact:" << std::endl;
     contact2.output();*/
 
-    College college1("Base college", "Random street", 1995, 1200);
+    /*College college1("Base college", "Random street", 1995, 1200);
 
     std::cout << "Original College:" << std::endl;
     college1.output();
@@ -46,7 +47,22 @@ int main() {
     college2.Deserialize(filePath);
 
     std::cout << "\nDeserialized College:" << std::endl;
-    college2.output();
+    college2.output();*/
+
+    Student student1("Full name", "P-39", 20, 10);
+
+    std::cout << "Original Student:" << std::endl;
+    student1.output();
+
+    std::string filePath = "student_test.bin";
+    student1.Serialize(filePath);
+
+    Student student2;
+
+    student2.Deserialize(filePath);
+
+    std::cout << "\nDeserialized Student:" << std::endl;
+    student2.output();
 
     return 0;
 }
