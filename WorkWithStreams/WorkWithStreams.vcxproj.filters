@@ -24,6 +24,9 @@
     <ClInclude Include="Contacts.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="College.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="String.cpp">
